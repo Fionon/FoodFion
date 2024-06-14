@@ -10,6 +10,9 @@
 
 .singlePostWrapper {
     padding: 69px;
+    background-color: #FCF9EE;
+    height: 100lvh;
+    min-height: 800px;
 }
 
 .singlePostImg{

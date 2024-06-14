@@ -4,4 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+    background-color: #FCF9EE;
+    height: 100lvh;
+    min-height: 800px;
 }

@@ -5,6 +5,8 @@ import Write from "./pages/archive/write/Write";
 import Login from "./pages/archive/login/Login";
 import Register from "./pages/archive/register/Register"
 import Food from "./pages/food/Food";
+import Travel from "./pages/travel/Travel";
+import Hobby from "./pages/hobby/Hobby";
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/login" element={user ? <Home/> :<Login/>}/>
         <Route exact path="/write" element={user ? <Write/> : <Register/>}/>
         <Route exact path="/food" element={<Food/>}/>
+        <Route exact path="/travel" element={<Travel/>}/>
+        <Route exact path="/hobby" element={<Hobby/>}/>
         <Route exact path="/post/:postId" element={<Single/>}/>
       </Routes>
 
