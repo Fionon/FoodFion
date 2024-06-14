@@ -1,11 +1,13 @@
 
 .post {
     width: 69%;
-    margin: 0px 25px 40px 47px;
+    margin: 0px 69px 40px 69px;
+    flex: 9;
 }
 
 .postImg {
     width: 100%;
+    max-width: 1000px;
     height: 200px;
     object-fit: cover;
     border-radius: 11px;

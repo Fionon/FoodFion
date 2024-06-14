@@ -17,7 +17,6 @@ export default function HomeBody() {
                 <span className="postCat">Resume</span>
                 <span className="postCat">LinkedIn</span>
             </div>
-            <hr/>
         </div>
         <img className="postImg" src={foodHero} alt="postimage"/>
     </div>
