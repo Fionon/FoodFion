@@ -1,5 +1,5 @@
 import "./write.css"
-import foodHero from "../../images/foodHero.jpg"
+import foodHero from "../../../images/foodHero.jpg"
 
 export default function Write() {
   return (

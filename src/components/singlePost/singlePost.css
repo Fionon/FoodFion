@@ -1,11 +1,15 @@
 
+/* TODO: 
+    max-width: 1500px; 
+    Choose new font for text
+*/
 .singlePost {
-    flex: 9;
+    display: flex;
+    justify-content: center;
 }
 
 .singlePostWrapper {
-    padding: 20px;
-    padding-right: 0;
+    padding: 69px;
 }
 
 .singlePostImg{
@@ -18,7 +22,8 @@
 .singlePostTitle {
     text-align: center;
     margin: 10px;
-    font-family: "Roboto";
+    font-family: "Crete Round";
+    color: #293021;
     font-size: 28px;
 }
 
@@ -33,11 +38,11 @@
 }
 
 .singlePostIcon:first-child {
-    color: teal;
+    color: #96705B;
 }
 
 .singlePostIcon:last-child {
-    color: tomato;
+    color: #96705B;
 }
 
 .singlePostInfo {
@@ -45,12 +50,13 @@
     display: flex;
     justify-content: space-between;
     flex: 16;
-    color: #b39656;
-    font-family: "Roboto";
+    color: #96705B;
+    font-family: "Crete Round";
+    font-size: 18px;
 }
 
 .singlePostDesc {
-    color: #666;
+    color: #293021;
     font-size: 18px;
     line-height: 25px;
 }

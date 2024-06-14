@@ -1,59 +1,44 @@
-.top {
+.navbar {
     width: 100%;
     height: 50px;
-    background-color: green;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
-    font-family: 'Roboto';
+    font-family: "Crete Round";
     z-index: 999;
+    background-color: #FCF9EE;
 }
 
-.topLeft, .topRight {
-    flex: 3;
+.navbarList {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.topCenter {
-    flex: 6;
-}
-
-.topIcon {
-    font-size: 20px;
-    margin-right: 10px;
-    color: #444;
-    cursor: pointer;
-}
-
-.topImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.topList {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: 69px;
     list-style: none;
 }
 
-.topListItem {
-    margin-right: 20px;
-    font-size: 18px;
+.navbarLeft, .navbarRight {
+    display: flex;
+    font-size: 20px;
     font-weight: 300;
-    color: white;
+    color: #96705B;
     cursor: pointer;
 }
 
-.topSearchIcon {
-    font-size: 28px;
-    color: #666;
-    cursor: pointer;
-    margin-left: 15;
+.navbarLeft {
+    color: #96705B;
+}
+
+.navbarRight {
+    color: #293021;
+}
+
+.navbarLeft:hover {
+    color: #293021;
+}
+
+.navbarRight:hover {
+    color: #96705B;
 }

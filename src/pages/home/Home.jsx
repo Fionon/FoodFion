@@ -1,6 +1,5 @@
+import HomeBody from "../../components/HomeBody/HomeBody"
 import Header from "../../components/header/Header"
-import Posts from "../../components/Posts/Posts"
-import SideBar from "../../components/sideBar/SideBar"
 import "./home.css"
 
 export default function Home() {
@@ -8,8 +7,7 @@ export default function Home() {
     <>
       <Header/>
       <div className="home"> 
-        <Posts/>
-        <SideBar/>
+      <HomeBody/>
       </div>
     </>
     

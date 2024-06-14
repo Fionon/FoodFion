@@ -1,31 +1,44 @@
 
 .header {
-    margin-top: 60px;
+    margin-top: 0px;
+    background-color: #FCF9EE;
+    width: 100%;
 }
 
-.headerTitles {
+.headerImgContainer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Roboto';
-    color: #444;
+    flex-wrap: wrap;
+    padding: 69px;
 }
 
-.headerTitleSm {
-    position: absolute;
-    top: 18%;
-    font-size: 20px;
-}
-
-.headerTitleLg {
-    position: absolute;
-    top: 20%;
-    font-size: 100px;
+.headerImgItem {
+    width: 33.33%;
 }
 
 .headerImg {
     width: 100%;
-    height: 450px;
-    margin-top: 80px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.imgText {
+    font-family: "Crete Round";
+    color: #293021;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.headerImg:hover {
+    opacity: 0.69;
+}
+
+@media screen and (max-width: 840px) {
+    .headerImgItem {
+        width: 100%;
+    }
+    .headerImg {
+        height: 200px;
+    }
 }
