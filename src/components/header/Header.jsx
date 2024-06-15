@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./header.css"
-import foodHero from "../../images/foodHero.jpg"
+import tsujiri from "../../images/tsujiri.jpg"
+import inari from "../../images/inari.jpg"
+import cat from "../../images/cat1.jpg"
 
 export default function Header() {
   return (
@@ -8,23 +10,24 @@ export default function Header() {
         <div className="headerImgContainer">
             <div className="headerImgItem">
               <Link to = "/food">
-                <img className="headerImg" src={foodHero} alt="foodHero" />
+                <img className="headerImg" src={tsujiri} alt="foodHero" />
               </Link>
-              <span className="imgText">food</span>
+              <div className="imgText">food</div>
             </div>
 
             <div className="headerImgItem">
               <Link to = "/travel">
-                <img className="headerImg" src={foodHero} alt="foodHero" />
+                <img className="headerImg" src={inari} alt="foodHero" />
+                <div className="imgText">travel</div>
               </Link>
-              <span className="imgText">travel</span>
+              
             </div>
 
             <div className="headerImgItem">
               <Link to = "/hobby">
-                <img className="headerImg" src={foodHero} alt="foodHero" />
+                <img className="headerImg" src={cat} alt="foodHero" />
               </Link>
-              <span className="imgText">hobby</span>
+              <div className="imgText">hobby</div>
             </div>
 
         </div>

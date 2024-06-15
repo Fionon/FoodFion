@@ -1,10 +1,10 @@
-import SinglePost from "../../components/singlePost/SinglePost"
+import Posts from "../../components/Posts/Posts"
 import "./food.css"
 
 export default function Food() {
   return (
     <div className="food">
-        <SinglePost/>
+        <Posts/>
     </div>
   )
 }

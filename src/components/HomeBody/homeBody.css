@@ -1,25 +1,25 @@
 
-.post {
+.homeBody {
     width: 69%;
     margin: 0px 69px 40px 69px;
     flex: 9;
+    min-height: 52vh;
 }
 
-.postImg {
+.homeImg {
     width: 100%;
-    max-width: 1000px;
-    height: 200px;
+    max-width: 880px;
+    height: 500px;
     object-fit: cover;
-    border-radius: 11px;
 }
 
-.postInfo {
+.contactBlock {
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
-.postCat {
+.contactInfo {
     font-family: "Crete Round";
     font-size: 16px;
     color: #96705B;
@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.postTitle {
+.blogHeader {
     font-family: "Crete Round";
     color: #293021;
     font-size: 69px;
@@ -37,7 +37,7 @@
     margin-top: 15px;
 }
 
-.postDate {
+.homeText {
     font-family: "Crete Round";
     font-style: italic;
     font-size: 24px;
@@ -45,7 +45,7 @@
     margin-top: 15px;
 }
 
-.postDesc {
+.blogDesc {
     font-family: "Crete Round";
     font-size: 24px;
     color: #293021;
@@ -56,4 +56,8 @@
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+}
+
+.contactInfo:hover {
+    color: #293021;
 }
